@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sustaina | Dashboard</title>
+    <!-- css main file  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- my framework  -->
+    <link rel="stylesheet" href="css/framework.css" />
+  </head>
+
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar bg-white p-10 relative">
+        <h3 class="relative text-c mt-0 pt-10 mb-50 t-bold">Sustaina</h3>
+        <ul>
+          <li>
+            <a
+              href="posts.html"
+              class="d-flex al-center size-14 radius-5 p-10 c-black"
+            >
+              <i class="fa-fw fa-solid fa-signs-post fa-fw"></i>
+              <span class="pr-10">المقالات</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="index.html"
+              class="active d-flex al-center size-14 radius-5 p-10 c-black"
+            >
+              <i class="fa-fw fa-regular fa-chart-bar fa-fw"></i>
+              <span class="pr-10"
+                >لوحه<span style="visibility: hidden">.</span>القياده</span
+              >
+            </a>
+          </li>
+          <li>
+            <a
+              href="gallery.html"
+              class="d-flex al-center size-14 radius-5 p-10 c-black"
+            >
+              <i class="fa-fw fa-regular fa-chart-bar fa-fw"></i>
+              <span class="pr-10">المعرض</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <div class="header bg-white d-flex al-center jsf-between pl-5 p-10">
+          <div class="search relative">
+            <input
+              class="radius-10 ml-5 pr-10 focus"
+              type="search"
+              placeholder="بحث"
+            />
+          </div>
+          <div class="icons d-flex al-center pl-5">
+            <span class="relative notifaction">
+              <i class="fa-fw fa-regular fa-bell fa-shake size-20"></i>
+            </span>
+            <img src="imgs/avatar.png" />
+          </div>
+        </div>
+        <h1 class="relative size-32">لوحه القياده</h1>
+        <div class="warpper d-grid gap-20">
+          <div class="latest-news widget">
+            <h2 class="m-0 p-t-b-20 size-25 text-bold">اخر المهام</h2>
+            <div class="rows text-mb-cen">
+              <div
+                class="news-row pb-20 border-b-eee-2 flex-mobile-column d-flex juf-betwen wd-full al-center"
+              >
+                <img src="imgs/news-03.png" />
+                <div class="text pl-10 pr-10 flex-gr-x1">
+                  <h3>انشاء صفحه SASS</h3>
+                  <p>New SASS Examples & Tutorials</p>
+                </div>
+                <span class="button transparent-button">منذ 3 ساعات</span>
+              </div>
+              <div
+                class="news-row pb-20 border-b-eee-2 flex-mobile-column d-flex juf-betwen wd-full al-center"
+              >
+                <img src="imgs/news-02.png" />
+                <div class="text pl-10 pr-10 flex-gr-x1">
+                  <h3>انشاء صفحه bootstarp</h3>
+                  <p>New bootstarp Examples & Tutorials</p>
+                </div>
+                <span class="button transparent-button">منذ 3 ساعات</span>
+              </div>
+              <div
+                class="news-row pb-20 border-b-eee-2 flex-mobile-column d-flex juf-betwen wd-full al-center"
+              >
+                <img src="imgs/news-01.png" />
+                <div class="text pl-10 pr-10 flex-gr-x1">
+                  <h3>انشاء صفحه css</h3>
+                  <p>New css Examples & Tutorials</p>
+                </div>
+                <span class="button transparent-button">منذ 3 ساعات</span>
+              </div>
+              <div
+                class="news-row pb-20 border-b-eee-2 flex-mobile-column d-flex juf-betwen wd-full al-center"
+              >
+                <img src="imgs/news-04.png" />
+                <div class="text pl-10 pr-10 flex-gr-x1">
+                  <h3>انشاء صفحه dashboard</h3>
+                  <p>New dashboard project</p>
+                </div>
+                <span class="button transparent-button">منذ 3 ساعات</span>
+              </div>
+              <div
+                class="news-row pb-20 flex-mobile-column d-flex juf-betwen wd-full al-center"
+              >
+                <img src="imgs/news-05.png" />
+                <div class="text pl-10 pr-10 flex-gr-x1">
+                  <h3>انشاء صفحه java script</h3>
+                  <p>New java script Examples & Tutorials</p>
+                </div>
+                <span class="button transparent-button">منذ 3 ساعات</span>
+              </div>
+            </div>
+          </div>
+          <div class="quick-draft widget">
+            <div class="text">
+              <h2 class="m-0 p-t-b-20">مسودة</h2>
+            </div>
+            <form>
+              <input
+                type="text"
+                placeholder="العنوان"
+                class="border-none wd-full mt-10 mb-10 bg-white-alt focus radius-5"
+              />
+              <textarea
+                class="mt-10 mb-10 wd-full bg-white-alt border-none focus radius-5"
+                placeholder="فكرتك"
+              ></textarea>
+              <span class="button bg-green border-none">حفظ</span>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/toggle.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
